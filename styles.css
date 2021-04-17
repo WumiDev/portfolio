@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    background-color: royalblue;
+    color: #ffffff;
+    padding: 2rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-box, .right-box {
+    width: 28%;
+}
+
+.header-box2 {
+    margin-top: 2em;
+}
+
+img.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h3.skills-item {
+    display: inline;
+}
+
+article h2 {
+    color: royalblue;
+    background-color: rgba(215, 228, 233, 0.4);
+    padding: 0.5em 0;
+    margin-bottom: .5em;
+    text-align: center;    
+}
+
+article h3 {
+    padding-bottom: 6.5em;
+    text-align: center;    
+}
+
+.profile, .skills, .experience, .courses, .education {
+    margin: 1.5em auto;
+}
+
+.skills-item {
+    margin: 1em auto;
+}
+
+.language-item {
+    border: solid 1px #333;
+    border-radius: 0.2em;
+    padding: .8em;
+    margin-right: 1em;
+}
+
+ul li {
+    margin-top: .7em;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    /* color: #88949B; */
+    color: #f3f3f3;
+    padding: 0.5vw;
+}
+
+ul li a i {
+  padding-right: 0.5em;
+}
+
+div a {
+    text-decoration: none;
+    color: navy;
+    padding: 0.5vw;
+}
+
+
+
+ul.nav-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav .nav-links {
+    justify-content: flex-end;
+}
+
+.footer-nav .nav-links {
+    justify-content: space-around;
+}
+
+.footer-nav .country {
+    justify-content: flex-start;
+    margin-left: 5px;
+}
