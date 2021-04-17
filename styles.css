@@ -79,6 +79,7 @@ span.grey-dot {
     border-radius: 0.2em;
     padding: .8em;
     margin-right: 1em;
+    display: inline;
 }
 
 ul li {
