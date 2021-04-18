@@ -104,3 +104,29 @@ header a {
     color: navy;
     padding: 0.5vw;
 }
+
+@media screen and (max-width: 640px) and (min-width: 300px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        background-color: royalblue;
+        color: #ffffff;
+    }
+
+    .header-box2 {
+        margin-top: 0em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+    }
+
+    article.languages {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    main {
+        flex-wrap: wrap;
+    }
+
+}
